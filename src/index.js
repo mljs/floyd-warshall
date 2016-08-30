@@ -2,6 +2,6 @@
 
 const Matrix = require('ml-matrix');
 
-function floydWarshall () {}
+function floydWarshall() {}
 
 module.exports = floydWarshall();
