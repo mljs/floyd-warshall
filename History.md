@@ -1,3 +1,7 @@
+## [1.0.1](https://github.com/mljs/floyd-warshall/compare/v1.0.0...v1.0.1) (2020-01-21)
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2016-08-30)
 
