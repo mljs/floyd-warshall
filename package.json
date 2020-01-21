@@ -2,8 +2,10 @@
   "name": "ml-floyd-warshall",
   "version": "1.0.1",
   "description": "Algorithm for finding shortest paths in a weighted graph with positive or negative edge weights (but with no negative cycles)",
-  "main": "./src/index.js",
+  "main": "lib/index.js",
+  "module": "src/index.js",
   "files": [
+    "lib",
     "src"
   ],
   "scripts": {
@@ -13,9 +15,7 @@
     "testonly": "jest"
   },
   "jest": {
-    "roots": [
-      "<rootDir>/src"
-    ]
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -32,8 +32,12 @@
     "floyd-warshall",
     "path"
   ],
-  "engines": {
-    "node": ">=2.0.0"
+  "prettier": {
+    "arrowParens": "always",
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all"
   },
   "author": "Miguel Asencio <maasencioh@gmail.com> (https://github.com/maasencioh)",
   "license": "MIT",
@@ -43,6 +47,7 @@
   "homepage": "https://github.com/mljs/floyd-warshall#readme",
   "tonicExampleFilename": "./tonic.js",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
     "eslint": "^6.8.0",
     "eslint-config-cheminfo": "^2.0.4",
     "eslint-plugin-import": "^2.20.0",

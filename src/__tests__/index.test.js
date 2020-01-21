@@ -1,8 +1,6 @@
-'use strict';
+import { Matrix } from 'ml-matrix';
 
-const { Matrix } = require('ml-matrix');
-
-const floydWarshall = require('..');
+import floydWarshall from '..';
 
 describe('Floyd Warshall test', function() {
   it('Directed graph', function() {
