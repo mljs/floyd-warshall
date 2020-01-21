@@ -7,7 +7,7 @@
     "src"
   ],
   "scripts": {
-    "eslint": "eslint src test",
+    "eslint": "eslint src",
     "eslint-fix": "npm run eslint -- --fix",
     "test": "npm run testonly && npm run eslint",
     "testonly": "jest"
@@ -46,9 +46,11 @@
     "eslint": "^6.8.0",
     "eslint-config-cheminfo": "^2.0.4",
     "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
     "eslint-plugin-no-only-tests": "^2.4.0",
     "eslint-plugin-prettier": "^3.1.2",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
   },
   "dependencies": {
     "ml-matrix": "^6.4.1"
