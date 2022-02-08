@@ -18,7 +18,7 @@ export default function floydWarshall(adjMatrix) {
     } else {
       let val = adjMatrix.get(row, column);
 
-      if (val) {
+      if (val || Object.is(val, -0)) {
         // edges values remain the same
         distMatrix.set(row, column, val);
       } else {
