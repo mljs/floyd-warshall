@@ -1,6 +1,6 @@
 {
   "name": "ml-floyd-warshall",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Algorithm for finding shortest paths in a weighted graph with positive or negative edge weights (but with no negative cycles)",
   "main": "lib/index.js",
   "module": "src/index.js",
