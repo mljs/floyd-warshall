@@ -1,3 +1,5 @@
+# Changelog
+
 ## [1.0.3](https://github.com/mljs/floyd-warshall/compare/v1.0.2...v1.0.3) (2020-01-23)
 
 

@@ -2,8 +2,8 @@ import { Matrix } from 'ml-matrix';
 
 import floydWarshall from '..';
 
-describe('Floyd Warshall test', function() {
-  it('Directed graph', function() {
+describe('Floyd Warshall test', () => {
+  it('Directed graph', () => {
     let adjMatrix = new Matrix([
       [1, 1, 1, 0],
       [1, 1, 0, 0],
