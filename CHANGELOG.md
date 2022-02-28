@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.4](https://github.com/mljs/floyd-warshall/compare/v1.0.3...v1.0.4) (2022-02-28)
+
+
+### Bug Fixes
+
+* differentiates between negative zero ([#7](https://github.com/mljs/floyd-warshall/issues/7)) ([479d032](https://github.com/mljs/floyd-warshall/commit/479d032574b297807015ed0d44efeb41b7d663ee))
+
 ## [1.0.3](https://github.com/mljs/floyd-warshall/compare/v1.0.2...v1.0.3) (2020-01-23)
 
 
@@ -24,6 +31,3 @@
 ### Features
 
 * initial implementation of Floyd Warshall ([42ca7aa](https://github.com/mljs/floyd-warshall/commit/42ca7aa))
-
-
-
