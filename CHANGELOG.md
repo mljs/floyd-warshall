@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/mljs/floyd-warshall/compare/v1.0.4...v2.0.0) (2022-11-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* update dependencies and don't expose default
+
+### Miscellaneous Chores
+
+* update dependencies and don't expose default ([961c78c](https://github.com/mljs/floyd-warshall/commit/961c78cf5b3d5384128f64a5d91bb2aa45f69efc))
+
 ### [1.0.4](https://github.com/mljs/floyd-warshall/compare/v1.0.3...v1.0.4) (2022-02-28)
 
 
