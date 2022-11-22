@@ -10,7 +10,7 @@
     "src"
   ],
   "scripts": {
-    "compile": "rollup -c",
+    "compile": "rollup -c --bundleConfigAsCjs",
     "eslint": "eslint src",
     "eslint-fix": "npm run eslint -- --fix",
     "prepack": "npm run compile",
