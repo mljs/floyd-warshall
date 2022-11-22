@@ -1,6 +1,6 @@
 import { Matrix } from 'ml-matrix';
 
-import floydWarshall from '..';
+import { floydWarshall } from '..';
 
 describe('Floyd Warshall test', () => {
   it('Directed graph', () => {
