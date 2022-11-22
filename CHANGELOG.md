@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/mljs/floyd-warshall/compare/v2.0.0...v2.0.1) (2022-11-22)
+
+
+### Bug Fixes
+
+* prepack ([94eb955](https://github.com/mljs/floyd-warshall/commit/94eb95534a8a2ee15373b9f196bb750e77a6d2f5))
+
 ## [2.0.0](https://github.com/mljs/floyd-warshall/compare/v1.0.4...v2.0.0) (2022-11-22)
 
 
