@@ -5,7 +5,7 @@ import { Matrix } from 'ml-matrix';
  * @param {Matrix} adjMatrix - A squared adjacency matrix
  * @return {Matrix} - Distance from a node to the other, -1 if the node is unreachable
  */
-export function floydWarshall(adjMatrix) {
+export function floydWarshall(adjMatrix: Matrix): Matrix {
   if (Matrix.isMatrix(adjMatrix) && adjMatrix.columns !== adjMatrix.rows) {
     throw new TypeError('The adjacency matrix should be squared');
   }

@@ -4,3 +4,4 @@ parserOptions:
 env:
   jest: true
   node: true
+root: true
