@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/mljs/floyd-warshall/compare/v2.0.1...v3.0.0) (2023-02-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate project to typescript ([#12](https://github.com/mljs/floyd-warshall/issues/12))
+
+### Miscellaneous Chores
+
+* migrate project to typescript ([#12](https://github.com/mljs/floyd-warshall/issues/12)) ([4112067](https://github.com/mljs/floyd-warshall/commit/4112067e32c65c7587b73179a95b2f08bb7468d0))
+
 ## [2.0.1](https://github.com/mljs/floyd-warshall/compare/v2.0.0...v2.0.1) (2022-11-22)
 
 
