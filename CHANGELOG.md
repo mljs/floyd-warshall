@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/mljs/floyd-warshall/compare/v3.0.0...v3.0.1) (2023-02-27)
+
+
+### Bug Fixes
+
+* correct prepack script ([70ef3db](https://github.com/mljs/floyd-warshall/commit/70ef3db13eca7b1eadcffa09ca01045d18c6ad62))
+
 ## [3.0.0](https://github.com/mljs/floyd-warshall/compare/v2.0.1...v3.0.0) (2023-02-27)
 
 
